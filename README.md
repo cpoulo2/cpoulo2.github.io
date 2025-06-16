@@ -1,2 +1,2 @@
-# cpoulo2.github.io
-Spa
+# Space for uploading shareable data visualizations
+
