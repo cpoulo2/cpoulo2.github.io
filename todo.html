@@ -48,18 +48,23 @@ want more of something else, you need to cut; false choice).</p>
 <summary>
 Active tasks
 </summary>
-<ul>
-<li>Get Ford capital needs data +cps_budget_stakes {start:2025-06}
-{due:2025-06-23}</li>
-<li>Get Crawford capital needs data +cps_budget_stakes {start:2025-06}
-{due:2025-06-23}</li>
+<ol type="A">
 <li>Use directory of educational entities and CPS school locations to
 find the number of schools in each legislative district and those
 schools as a percent of the overall school district. {start:2025-06-23}
 +cps_budget_stakes</li>
+</ol>
+<ul>
 <li>Create web app for easy access to capital need and potential budget
 cut data by school for legislative districts {start:2025-06-23}
-+cps_budget_stakes</li>
++cps_budget_stakes
+<ul>
+<li>Reformat web app so that there are two tabs (one for capital one for
+opersations) {start:2026-06} +cps_budget_stakes</li>
+<li>Reformat web app so it has super columns over operations and
+positions {start:2026-06} +cps_budget_stakes</li>
+<li>Add download PDF. {start:2026-06} +cps_budget_stakes</li>
+</ul></li>
 </ul>
 </details>
 <details>
@@ -67,17 +72,33 @@ cut data by school for legislative districts {start:2025-06-23}
 Completed tasks
 </summary>
 <ul>
-<li>Create school-level dataset with capital needs (immediate and total)
-and total operational budget FY25, total positions, total SPED
+<li><p>Create tables based on the table Pavlyn sends for weds mtg.
++cps_budget_stakes {start:2025-06} {cm:2025-06-25}
+{duration:24d_14h17m}</p></li>
+<li><p>Change column names in cleaning script {start:2026-06}
+{cm:2025-06-24} {duration:-11m–6d_-18h-35m}</p></li>
+<li><p>Make charter position data missing. +cps_budget_stakes
+{start:2025-06} NOTE: Charter position data already appeared to be
+missing. {cm:2025-06-25} {duration:24d_14h18m}</p></li>
+<li><p>Get Ford capital needs data +cps_budget_stakes {start:2025-06}
+NOTE: Completed with table creater .py {cm:2025-06-25}
+{duration:24d_14h18m}</p></li>
+<li><p>Get Crawford capital needs data +cps_budget_stakes
+{start:2025-06} NOTE: Completed with table creater .py {cm:2025-06-25}
+{duration:24d_14h18m}</p></li>
+<li><p>Get 7% adn 15% cut number +cps_budget_stakes {start:2025-06}
+{cm:2025-06-24} {duration:23d_14h53m}</p></li>
+<li><p>Create school-level dataset with capital needs (immediate and
+total) and total operational budget FY25, total positions, total SPED
 positions, and 7% and 15% cuts to those totals. Save as long and as
-stacked (for the webapp) {cm:2025-06-20}</li>
+stacked (for the webapp) {cm:2025-06-20}</p></li>
+<li><p>Send preliminary results/examples to Pavlyn and Kurt
+{due:2025-06-12} +cps_budget_stakes {cm:2025-06-16}</p></li>
 </ul>
 <ol type="A">
-<li><p>Send preliminary results/examples to Pavlyn and Kurt
-{due:2025-06-12} +cps_budget_stakes {cm:2025-06-16}</p>
-<ol type="A">
 <li>Ford numbers and write up {due:2025-06-13} +cps_budget_stakes
-{cm:2025-06-16}</li>
+{cm:2025-06-16}<br />
+</li>
 </ol>
 <ul>
 <li>EBF districts: race/demo, adequacy level and gaps ($ and positions)
@@ -90,34 +111,27 @@ stacked (for the webapp) {cm:2025-06-20}</li>
 {cm:2025-06-17}</li>
 </ol>
 <ul>
-<li><p>EBF districts: race/demo, adequacy level and gaps ($ and
-positions) {cm:2025-06-16}</p>
-<ul>
+<li>EBF districts: race/demo, adequacy level and gaps ($ and positions)
+{cm:2025-06-16}</li>
 <li>Demonstrate effects of cuts on SPED (Note: Need to army counsel with
 Pavlyn et al to figure out ways to convey this) {cm:2025-06-16}</li>
 <li>Capital needs Ford {cm:2025-06-16}</li>
-</ul></li>
-<li><p>Capital needs dataset and results {cm:2025-06-16}
+</ul>
+<p>Capital needs dataset and results {cm:2025-06-16} +cps_budget_stakes
+- Capital funding joined with legislative districts {cm:2025-06-12} -
+Create a dataset with names and legislative districts to join with
+capital funding+district data {cm:2025-06-12} - Run funding gaps and
+funding gap by type of need (short/long term) CPS wide and for selected
+districts {cm:2025-06-12}</p>
+<p>Operational dataset and results {cm:2025-06-16}
 +cps_budget_stakes</p>
+<p>Pull CPS adequacy gap numbers {cm:2025-06-12} - Save PEER dataset to
+work folder {cm:2025-06-12}</p>
+<p>Pull EBF district numbers for Rashid {cm:2025-06-12}</p>
 <ul>
-<li><p>Capital funding joined with legislative districts
-{cm:2025-06-12}</p></li>
-<li><p>Create a dataset with names and legislative districts to join
-with capital funding+district data {cm:2025-06-12}</p></li>
-<li><p>Run funding gaps and funding gap by type of need (short/long
-term) CPS wide and for selected districts {cm:2025-06-12}</p></li>
-</ul></li>
-<li><p>Operational dataset and results {cm:2025-06-16}
-+cps_budget_stakes</p>
-<ul>
-<li><p>Save PEER dataset to work folder {cm:2025-06-12}</p></li>
-<li><p>Pull EBF district numbers for Rashid {cm:2025-06-12}</p></li>
-<li><p>Pull CPS adequacy gap numbers {cm:2025-06-12}</p></li>
-<li><p>Download budget data 2025 {cm:2025-06-16}</p></li>
-<li><p>Join with legislative districts {cm:2025-06-16}</p></li>
-</ul></li>
-</ul></li>
-</ol>
+<li><p>Download budget data 2025 {cm:2025-06-16}</p>
+<pre><code>  - Join with legislative districts {cm:2025-06-16}</code></pre></li>
+</ul>
 </details>
 </details>
 <h4 id="tif-policy-proposals">TIF policy proposals</h4>
@@ -140,6 +154,8 @@ Government Warehouse</a>.</p>
 Active tasks
 </summary>
 <ul>
+<li>Write up TIF meeting notes.</li>
+<li>Get expiring TIFs from Joe {start:2025-06}</li>
 <li>Recreate Joe’s TIF surplus calculations {start:2025-06}
 +tif_policy_research</li>
 <li>Produce estimates on sunsetting TIF {start:2025-06}
@@ -193,8 +209,8 @@ tamper his fight back against Trump and progressive agenda.</p>
 <strong>Inactive or completed projects
 </summary>
 <p></strong></p>
-<h3 id="soi-revenue-flyer-and-rap-cm2025-06-23">SOI REVENUE FLYER AND
-RAP {cm:2025-06-23}</h3>
+<h4 id="soi-revenue-flyer-and-rap-cm2025-06-23">SOI REVENUE FLYER AND
+RAP {cm:2025-06-23}</h4>
 <blockquote>
 <p>Context: Work with organizing dept to create language and produce
 data around revenue and budget cuts for Summer Organizing Institue
